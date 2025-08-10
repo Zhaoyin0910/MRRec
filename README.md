@@ -2,7 +2,7 @@
 
 ## 📄 Overview
 
-This method leverages **program similarity** (syntactic similarity and semantic similarity) to recommend existing Metamorphic Relations (MRs) for new programs, thereby reducing the cost of MR identification and improving efficiency.  
+This method leverages **program similarity** (syntactic similarity and semantic similarity) to recommend existing Metamorphic Relations (MR) for new programs, thereby reducing the cost of MR identification and improving efficiency.  
 - **Syntactic similarity** → Measures code structural similarity based on the Longest Common Subsequence (LCS) algorithm  
 - **Semantic similarity** → Measures code functional similarity based on GraphCodeBERT  
 - Experiments on the **MetBench** and **LeetCode** datasets demonstrate that syntactic and semantic similarities are complementary in MR identification.
