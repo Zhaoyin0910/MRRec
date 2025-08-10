@@ -11,15 +11,18 @@ This method leverages **program similarity** (syntactic similarity and semantic 
 
 ### Syntactic Similarity Module
 
+ ```
 syntax/                        # Syntactic similarity computation module
 ├── main.py                    # Entry point for syntactic similarity computation
 ├── java-sim-lcs-opt.py        # LCS algorithm implementation
 ├── IR-Plag-Dataset/           # Candidate program samples
 ├── Results/                   # Results from syntactic similarity computation
 └── ...                        # Other auxiliary files and directories
+ ```
 
 ### Semantic Similarity Module
 
+ ```
 semantic/                      # Semantic similarity computation module
 ├── baselines/                 # Basic scripts and data processing
 │   ├── data_select.py         # Data cleaning script
@@ -27,6 +30,7 @@ semantic/                      # Semantic similarity computation module
 │   └── data/                  # Candidate program samples
 ├── microsoft/                 # GraphCodeBERT model
 └── ...                        # Other auxiliary files and directories
+ ```
 
 ## 🛠 Environment Requirements
 
